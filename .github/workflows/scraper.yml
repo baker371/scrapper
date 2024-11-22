@@ -34,4 +34,4 @@ jobs:
         git commit -m "Updated scraped data based on links.py change"
         git push
       env:
-        GITHUB_TOKEN: ${{ secrets.TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
